@@ -1,0 +1,42 @@
+.modal-backdrop, .modal-backdrop.fade.in {
+    z-index: 1200;
+}
+.loadingIt{
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 48%;
+    z-index: 50000;
+    width: 11%;
+    height: 46px;
+    background-color: #fbe078;
+    padding: 11px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 8px rgba(0,0,0,.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,.1);
+}
+
+.loadingIt img{
+    width: 15px;
+    margin-bottom: 2px;
+}
+
+#domain_availabe{
+    color: #fff;
+    background-color: #555;
+    padding: 13px;
+    font-weight: 200;
+}
+#domain_availabe .count{
+    color: #ff8943;
+    font-weight: 600;
+}
